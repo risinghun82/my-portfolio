@@ -327,7 +327,6 @@ export default function App() {
         <a className="contact-email" href="mailto:risinghun@naver.com">
           risinghun@naver.com
         </a>
-        <p className="contact-tel">010-6487-5370</p>
         <p className="contact-copy">Thank you for viewing my portfolio.</p>
       </section>
 
