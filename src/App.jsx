@@ -263,7 +263,7 @@ export default function App() {
               {w.sections ? (
                 <div className="before-after-wrap">
                   <div className="before-after-grid">
-                    {w.sections.filter(s => s.type === "before" || s.type === "after").map((sec, si) => (
+                    {w.sections.filter(s => s.type === "after").map((sec, si) => (
                       <div key={si}>
                         <div className={"ba-col ba-col--" + sec.type}>
                           <div className={"ba-label ba-label--" + sec.type}>
